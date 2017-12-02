@@ -1,0 +1,5 @@
+---
+# tasks file for cowsay
+
+- name: installing cowsay
+  apt: name=cowsay state=present
